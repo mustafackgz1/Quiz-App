@@ -103,7 +103,7 @@ submitBtnEl.addEventListener("click", () => {
             loadQuiz();
         }else {
             quizEl.innerHTML = `<h1>Congrats! You finished the exam.<br>
-            You answered ${score}/${quizData.length} true questings.</h1>
+            You got ${score} scores out of ${quizData.length}.</h1>
             <button class="btn reloadBtn" onclick="location.reload()">Reload</button>`
         }            
     }   
